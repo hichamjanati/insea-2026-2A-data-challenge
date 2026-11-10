@@ -1,0 +1,13 @@
+# data and credentials: never in git
+data/
+kaggle.json
+.kaggle/
+submissions/*.csv
+
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
